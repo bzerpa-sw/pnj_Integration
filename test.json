@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "f0ebf6db-b1b9-4fbd-b5b0-09a71e88ed51",
+		"name": "Test simplón",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "google",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google.com.uy/?search=kaka",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com",
+						"uy"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "kaka"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "google Kk",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google.com.uy/",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com",
+						"uy"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
